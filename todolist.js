@@ -8,7 +8,7 @@ while (input != 'quit'){
         var task = prompt("Enter a task");
         todo.push(task);
        }else if(input === 'list'){
-        console.log(task);
+        console.log(todo);
        }
        var input = prompt("what do you want to do?  \n new - add new task \n list - view all items \n quit - to exit the app");
 }
